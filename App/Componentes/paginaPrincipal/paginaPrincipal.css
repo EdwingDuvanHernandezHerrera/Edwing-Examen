@@ -1,0 +1,46 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .containerPrincipal{
+    height: 80vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    justify-items: center;
+    row-gap: 15px;
+    text-align: center;
+
+}
+
+main .containerPrincipal .imgaenPrincipal{
+    width: 80vw;
+    object-fit: contain;
+
+}
+
+main .containerPrincipal .tituloPrincipal1{
+    color: var(--color2);
+    font-size: 3rem;
+}
+
+
+main .containerPrincipal .tituloPrincipal2{
+    color: var(--color3);
+    font-size: 3rem;
+}
+
+main .containerPrincipal p{
+    color: var(--color2);
+    font-size: .8rem;
+}
+main .containerPrincipal button{
+    color: var(--color2);
+    background: linear-gradient(0.25turn, var(--color4), var(--color5));
+    border: none;
+    padding: 10px 30px; 
+    border-radius: 2px;
+    cursor: pointer;
+}
